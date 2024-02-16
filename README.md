@@ -22,7 +22,7 @@ Criteria for successful completition of this challenge were:
 * Store the event in local storage upon clicking the save button within that time block.
 
 
-This challenge gave me a little problem initially, as i had to introduce jquery in my work, but i did some research which buily my confidence a bit. Moreover, I will still need to refactor my codes to make it work perfectly with the third party APIs.
+This challenge gave me a little problem initially, as i had to introduce jquery in my work, but i did some research which built my confidence a bit. Moreover, I will still need to refactor my codes to make it work perfectly with the third party APIs.
 
 
 ## Usage
