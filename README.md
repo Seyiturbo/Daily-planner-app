@@ -1,69 +1,64 @@
 # Daily-planner-app
-birmingham
-Seventh Challenge for Bootcamp in web-developing and UX
+Challenge 7 for Bootcamp in front-end web development and Ux
 
-This was the seventh challenge for the University of Birmingham bootcamp in front-end web-developing and UX. In this challenge, I had to create a simple calendar application that allows a user to save events for each hour of the day. This app needed to run in the browser and feature dynamically updated HTML and CSS powered by jQuery. I also needed to use the [Day.js](https://day.js.org/docs/en/display/format) library to work with date and time.
+This marks the seventh challenge within the University of Birmingham bootcamp focused on front-end web development and UX.
+In this challenge, i had to create a basic calendar app where users can save events for each hour of the day. This app runs in the browser and uses dynamically updated HTML and CSS powered by jQuery. I also included the Day.js library to handle date and time operations.
+
+Realistically, I was able to get the app setup to a large extent. However, along the line i broke the codes when refactoring it and was trying to troubleshoot it to correct the bug but because of time i haven't finished it completely. I have also not finished with getting it to run all the task smoothly which i am still working on.
+
+# Requirements
 
 
 Criteria for successful completition of this challenge were:
 
 * Display the current day at the top of the calender when a user opens the planner.
  
-* Present timeblocks for standard business hours when the user scrolls down.
+* Show time blocks aligned with regular business hours while the user scrolls downward.
  
-* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
+* Assign distinct colors to each time block indicating whether it pertains to the past, present, or future when viewed.
  
-* Allow a user to enter an event when they click a timeblock
+* Permit users to input an event by clicking on a time block.
 
-* Save the event in local storage when the save button is clicked in that timeblock.
+* Store the event in local storage upon clicking the save button within that time block.
 
-* Persist events between refreshes of a page
 
-I enjoyed this challenge and it was a good way to practice using JQuery instead of Vanilla JS to navigate the DOM and create a dynamic application. I also really enjoyed exploring third-party API's and working with Day.js. 
-
+This challenge gave me a little problem initially, as i had to introduce jquery in my work, but i did some research which buily my confidence a bit. Moreover, I will still need to refactor my codes to make it work perfectly with the third party APIs.
 
 
 ## Usage
-
- All you need to do is open [this page](https://chantalcassinijones.github.io/daily-planner-app/) in your browser. The planner will be colour coded, depending on the time of day( grey for past, orange for present and green for future). You can write something in the textbox and it will save into local storage, even if you refresh the page. 
-
-md
-    ![Screenshot 1](./assets/screenshot/Screenshot%202023-12-18%20233521.png)
+The app is not perfectly done yet but I hope to do just a few tweaks and get it rolling.
 
 md
-    ![Screenshot 2](./assets/screenshot/Screenshot%202023-12-19%20002005.png)
+    ![Screenshot 1](./screenshots/Screenshot%201.png)
+
    
 
 
 ## Credits
 
-I read the following documentation to help me complete this challenge: 
+I referred to the following documentation to assist me in completing this challenge. 
 
-[Read Me Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 [day.js](https://day.js.org/docs/en/display/format)
 
-[.siblings()](https://api.jquery.com/siblings/)
 
 [.attr()](https://api.jquery.com/attr/)
 
-[.parent()](https://api.jquery.com/parent/)
 
-[.addClass and .removeClass](https://www.tutorialrepublic.com/jquery-tutorial/jquery-add-and-remove-css-classes.php)
-
-[.getItem and .setItem](https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery)
+[.local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStoragey)
 
 
-[chaining jquery](https://www.tutorialrepublic.com/jquery-tutorial/jquery-chaining.php)
+[chaining in jquery](https://www.tutorialrepublic.com/jquery-tutorial/jquery-chaining.php)
 
-[icons](https://fontawesome.com/v5/icons/save?f=classic&s=solid)
 
-[.each](https://api.jquery.com/each/)
 
-[textarea element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+[Read Me Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 [bootstrap layout](https://getbootstrap.com/docs/5.3/layout/columns/#horizontal-alignment)
 
 [bootstrap buttons](https://getbootstrap.com/docs/5.3/components/buttons/)
 
-[gradiant()](https://cssgradient.io/)
+[.addClass and .removeClass](https://www.tutorialrepublic.com/jquery-tutorial/jquery-add-and-remove-css-classes.php)
+
+
+
