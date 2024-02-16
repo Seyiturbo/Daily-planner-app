@@ -2,9 +2,9 @@
 Challenge 7 for Bootcamp in front-end web development and Ux
 
 This marks the seventh challenge within the University of Birmingham bootcamp focused on front-end web development and UX.
-In this challenge, i had to create a basic calendar app where users can save events for each hour of the day. This app runs in the browser and uses dynamically updated HTML and CSS powered by jQuery. I also included the Day.js library to handle date and time operations.
+In this challenge, i had to create a basic calendar app where users can save events for each hour of the day. This app runs in the browser and uses dynamically updated HTML and CSS powered by jQuery. I also included the Day.js library to handle date and time operations. 
 
-Realistically, I was able to get the app setup to a large extent. However, along the line i broke the codes when refactoring it and was trying to troubleshoot it to correct the bug but because of time i haven't finished it completely. I have also not finished with getting it to run all the task smoothly which i am still working on.
+Realistically, I was able to get the app setup to a large extent. However, along the line i broke the codes when refactoring it and was trying to troubleshoot it to correct the bug but because of time i haven't finished it completely. I have also not finished with getting it to run all the task smoothly which i am still working on. ALso, I need to use a local storage on the app.
 
 # Requirements
 
